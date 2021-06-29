@@ -1,0 +1,51 @@
+{
+    "name": "Romachi",
+    "tree": {
+      "$className": "DataModel",
+  
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+          "$path": "src/ReplicatedStorage"
+      },
+      "ServerStorage": {
+        "$className": "ServerStorage",
+          "$path": "src/ServerStorage"
+      },
+      "ServerScriptService": {
+        "$className": "ServerScriptService",
+          "$path": "src/ServerScriptService"
+      },
+      "StarterGui": {
+        "$className": "StarterGui",
+        "$path": "src/StarterGui"
+      },
+      "Workspace": {
+        "$className": "Workspace",
+          "$path": "src/Workspace"
+        },
+      "ReplicatedFirst": {
+            "$className": "ReplicatedFirst",
+              "$path": "src/ReplicatedFirst"
+            },
+      "Lighting": {
+        "$className": "Lighting",
+        "$properties": {
+          "Ambient": [
+            0,
+            0,
+            0
+          ],
+          "Brightness": 2,
+          "GlobalShadows": true,
+          "Outlines": false,
+          "Technology": "Voxel"
+        }
+      },
+      "SoundService": {
+        "$className": "SoundService",
+        "$properties": {
+          "RespectFilteringEnabled": true
+        }
+      }
+    }
+  }
